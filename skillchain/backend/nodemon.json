@@ -1,0 +1,7 @@
+{
+  "watch": ["*.js", "routes/", "models/", "middleware/", "db/", "utils/"],
+  "ext": "js,json",
+  "ignore": ["node_modules/"],
+  "delay": 500,
+  "quiet": true
+}
