@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: skillschain
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_CONTRACT_ADDRESS
+        sync: false

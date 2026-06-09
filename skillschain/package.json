@@ -1,0 +1,12 @@
+{
+  "name": "skillschain",
+  "version": "2.0.0",
+  "description": "SkillsChain - Decentralized Skills On-Chain Platform",
+  "scripts": {
+    "install": "cd frontend && npm install",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "deploy": "node scripts/deploy-contract.js"
+  }
+}
